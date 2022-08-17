@@ -159,24 +159,34 @@ comment
 //  }
 //  document.getElementById('myRec').innerHTML +='<br>' ;
 // }
-const answer = Math.floor(Math.random()* 10 + 1);
-let guesses = 0;
+// const answer = Math.floor(Math.random()* 10 + 1);
+// let guesses = 0;
 
-document.getElementById("submitbtn").onclick = function () {
+// document.getElementById("submitbtn").onclick = function () {
   
-    let guess = document.getElementById("guessField").value; 
-    guesses+=1;
+//     let guess = document.getElementById("guessField").value; 
+//     guesses+=1;
 
-    if (guess == answer){
-        alert(`${answer} is the #. It took you ${guesses}`);
-    }
-    else if(guess < answer){
-        alert("Too small!");
-    }
-    else if(guess > answer){
-        alert("Too large!");
-    }
-    else{
-        alert("Enter valid number")
-    }
+//     if (guess == answer){
+//         alert(`${answer} is the #. It took you ${guesses}`);
+//     }
+//     else if(guess < answer){
+//         alert("Too small!");
+//     }
+//     else if(guess > answer){
+//         alert("Too large!");
+//     }
+//     else{
+//         alert("Enter valid number")
+//     }
+// }
+let temp = 32;
+temp = toCelcius(temp);
+console.log(temp);
+
+function toCelcius(temp){
+    return (temp - 32) * (5/9);
+}
+function toFahrenheit(temp){
+    return temp * 9/5 + 32;
 }
