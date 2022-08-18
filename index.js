@@ -190,3 +190,9 @@ function toCelcius(temp){
 function toFahrenheit(temp){
     return temp * 9/5 + 32;
 }
+function toKelvin(temp) {
+     return temp + 273;
+}
+ document.getElementById("submitbtn").onclick = function () {
+   
+}
