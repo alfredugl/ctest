@@ -208,5 +208,13 @@ function toKelvin(temp) {
     temp = toFahrenheit(temp);
     document.getElementById('tempLabel').innerHTML = temp + "°F";
    }
-    
+   else if(document.getElementById('kbutton').checked) {
+    temp = document.getElementById('textbox').value;
+    temp = Number(temp);
+    temp = toKelvin(temp);
+    document.getElementById('tempLabel').innerHTML = temp + "°K";
+   }
+   else{
+       document.getElementById('tempLabel').innerHTML = 'Select a unit';
+   }
 }
