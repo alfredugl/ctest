@@ -194,5 +194,19 @@ function toKelvin(temp) {
      return temp + 273;
 }
  document.getElementById("submitbtn").onclick = function () {
-   
+   let temp;
+
+   if(document.getElementById('cbutton').checked) {
+       temp = document.getElementById('textbox').value;
+       temp = Number(temp);
+       temp = toCelcius(temp);
+       document.getElementById('tempLabel').innerHTML = temp + "°C";
+   }
+   else if(document.getElementById('fbutton').checked) {
+    temp = document.getElementById('textbox').value;
+    temp = Number(temp);
+    temp = toFahrenheit(temp);
+    document.getElementById('tempLabel').innerHTML = temp + "°F";
+   }
+    
 }
