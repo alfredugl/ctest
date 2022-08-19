@@ -180,41 +180,45 @@ comment
 //         alert("Enter valid number")
 //     }
 // }
-let temp = 32;
-temp = toCelcius(temp);
-console.log(temp);
+// let temp = 32;
+// temp = toCelcius(temp);
+// console.log(temp);
 
-function toCelcius(temp){
-    return (temp - 32) * (5/9);
-}
-function toFahrenheit(temp){
-    return temp * 9/5 + 32;
-}
-function toKelvin(temp) {
-     return temp + 273;
-}
- document.getElementById("submitbtn").onclick = function () {
-   let temp;
+// function toCelcius(temp){
+//     return (temp - 32) * (5/9);
+// }
+// function toFahrenheit(temp){
+//     return temp * 9/5 + 32;
+// }
+// function toKelvin(temp) {
+//      return temp + 273;
+// }
+//  document.getElementById("submitbtn").onclick = function () {
+//    let temp;
 
-   if(document.getElementById('cbutton').checked) {
-       temp = document.getElementById('textbox').value;
-       temp = Number(temp);
-       temp = toCelcius(temp);
-       document.getElementById('tempLabel').innerHTML = temp + "°C";
-   }
-   else if(document.getElementById('fbutton').checked) {
-    temp = document.getElementById('textbox').value;
-    temp = Number(temp);
-    temp = toFahrenheit(temp);
-    document.getElementById('tempLabel').innerHTML = temp + "°F";
-   }
-   else if(document.getElementById('kbutton').checked) {
-    temp = document.getElementById('textbox').value;
-    temp = Number(temp);
-    temp = toKelvin(temp);
-    document.getElementById('tempLabel').innerHTML = temp + "°K";
-   }
-   else{
-       document.getElementById('tempLabel').innerHTML = 'Select a unit';
-   }
-}
+//    if(document.getElementById('cbutton').checked) {
+//        temp = document.getElementById('textbox').value;
+//        temp = Number(temp);
+//        temp = toCelcius(temp);
+//        document.getElementById('tempLabel').innerHTML = temp + "°C";
+//    }
+//    else if(document.getElementById('fbutton').checked) {
+//     temp = document.getElementById('textbox').value;
+//     temp = Number(temp);
+//     temp = toFahrenheit(temp);
+//     document.getElementById('tempLabel').innerHTML = temp + "°F";
+//    }
+//    else if(document.getElementById('kbutton').checked) {
+//     temp = document.getElementById('textbox').value;
+//     temp = Number(temp);
+//     temp = toKelvin(temp);
+//     document.getElementById('tempLabel').innerHTML = temp + "°K";
+//    }
+//    else{
+//        document.getElementById('tempLabel').innerHTML = 'Select a unit';
+//    }
+// }
+let numbers = [1,2,3,4,5,6,7,8];
+ let maximun = math.max(numbers);
+ console.log(maximum)
+ 
