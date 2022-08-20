@@ -218,7 +218,11 @@ comment
 //        document.getElementById('tempLabel').innerHTML = 'Select a unit';
 //    }
 // }
-let numbers = [1,2,3,4,5,6,7,8];
- let maximun = math.max(numbers);
- console.log(maximum)
- 
+// let numbers = [1,2,3,4,5,6,7,8];
+//  let maximun = math.max(numbers);
+//  console.log(maximum)
+
+let p = ['sponge', 'bob', 'squid', 'ward'];
+let q = ['mr', 'krabs', 'okc'];
+p.push(...q);
+console.log (p);
