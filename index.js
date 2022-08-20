@@ -222,7 +222,7 @@ comment
 //  let maximun = math.max(numbers);
 //  console.log(maximum)
 
-let p = ['sponge', 'bob', 'squid', 'ward'];
-let q = ['mr', 'krabs', 'okc'];
-p.push(...q);
-console.log (p);
+// let p = ['sponge', 'bob', 'squid', 'ward'];
+// let q = ['mr', 'krabs', 'okc'];
+// p.push(...q);
+// console.log (p);
