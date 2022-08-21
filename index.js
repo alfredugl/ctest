@@ -232,4 +232,9 @@ comment
      let result = x + y;
      callback(result);
  }
- 
+ function displaycons(output){
+     console.log(output)
+ }
+ function displatDOM(output){
+     document.getElementById('myLabel').innerHTML = output;
+ }
