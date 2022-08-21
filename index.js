@@ -226,3 +226,10 @@ comment
 // let q = ['mr', 'krabs', 'okc'];
 // p.push(...q);
 // console.log (p);
+ sum(2, 3, displaycons);
+
+ function sum(x,y, callback) {
+     let result = x + y;
+     callback(result);
+ }
+ 
