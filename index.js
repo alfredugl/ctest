@@ -237,12 +237,12 @@ comment
 //  }
 //  function displatDOM(output){
 //      document.getElementById('myLabel').innerHTML = output;
- let students = ['sponegebob', 'patrick', "squidward"];
- students.forEach(capitalize);
+ let students = ['Sponegebob', 'Patrick', "Squidward"];
+ students.forEach(reduce);
  students.forEach(print);
 
- function capitalize(element, index, array){
-     array[index] = element[0].toUppercase() + element.substring(1);
+ function reduce(element, index, array){
+     array[index] = element[0].toLowercase() + element.substring(1);
  }
      function print(element){
          console.log(element)
