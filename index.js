@@ -237,14 +237,30 @@ comment
 //  }
 //  function displatDOM(output){
 //      document.getElementById('myLabel').innerHTML = output;
- let students = ['Sponegebob', 'Patrick', "Squidward"];
- students.forEach(reduce);
- students.forEach(print);
+//  let students = ['Sponegebob', 'Patrick', "Squidward"];
+//  students.forEach(reduce);
+//  students.forEach(print);
 
- function reduce(element, index, array){
-     array[index] = element[0].toLowercase() + element.substring(1);
- }
-     function print(element){
-         console.log(element)
+//  function reduce(element, index, array){
+//      array[index] = element[0].toLowercase() + element.substring(1);
+//  }
+//      function print(element){
+//          console.log(element)
      
- }
+//  }
+let numbers = [1, 2, 3, 4, 5];
+let squares = numbers.map(square);
+let cubes = numbers.map(cube);
+
+squares.forEach(print);
+
+function square(element){
+    return Math.pow(element, 2);
+}
+function cube(element){
+    return Math.pow(element, 3);
+}
+function print(element){
+    console.log(element);
+}
+
