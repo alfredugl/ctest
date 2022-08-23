@@ -59,70 +59,70 @@ comment
 // }
 // let x= Math.floor(Math.random() *6+1);
 
-document.getElementById('rollbtn').onclick= function(){
-    x= Math.floor(Math.random() *6+1);
-    y= Math.floor(Math.random() *6+1);
-    z= Math.floor(Math.random() *6+1);
+// document.getElementById('rollbtn').onclick= function(){
+//     x= Math.floor(Math.random() *6+1);
+//     y= Math.floor(Math.random() *6+1);
+//     z= Math.floor(Math.random() *6+1);
 
-document.getElementById('xLabel').innerHTML= x;
-document.getElementById('yLabel').innerHTML= y;
-document.getElementById('zLabel').innerHTML= z;
-}
- let myName= 'Ugele Alfred';
+// document.getElementById('xLabel').innerHTML= x;
+// document.getElementById('yLabel').innerHTML= y;
+// document.getElementById('zLabel').innerHTML= z;
+// }
+//  let myName= 'Ugele Alfred';
 
- w= myName.charAt(2);
- t= myName.replaceAll('e', 'x');
- console.log(t);
+//  w= myName.charAt(2);
+//  t= myName.replaceAll('e', 'x');
+//  console.log(t);
 
-let ev='aomine daiki';
+// let ev='aomine daiki';
 
-let firstName;
-let LastName;
+// let firstName;
+// let LastName;
 
-firstName= ev.slice(0, ev.indexOf(' '));
-LastName= ev.slice(ev.indexOf(' ')+1);
+// firstName= ev.slice(0, ev.indexOf(' '));
+// LastName= ev.slice(ev.indexOf(' ')+1);
 
-console.log(firstName);
-console.log(Last)
- let guns = -7;
+// console.log(firstName);
+// console.log(Last)
+//  let guns = -7;
 
- if(guns >= 21){
-     console.log('you sabi');
- }
- else if(guns <0){
-     console.log('commot for here');
- }
-else{
-    console.log('You no reach')
-}
+//  if(guns >= 21){
+//      console.log('you sabi');
+//  }
+//  else if(guns <0){
+//      console.log('commot for here');
+//  }
+// else{
+//     console.log('You no reach')
+// }
 
-document.getElementById('mybtn').onclick= function(){
+// document.getElementById('mybtn').onclick= function(){
 
-    const checbox =document.getElementById('checbox')
-    const vsacard =document.getElementById('vsacard')
-    const mstrcard =document.getElementById('mstrcard')
-    const ppcard =document.getElementById('ppcard')
+//     const checbox =document.getElementById('checbox')
+//     const vsacard =document.getElementById('vsacard')
+//     const mstrcard =document.getElementById('mstrcard')
+//     const ppcard =document.getElementById('ppcard')
 
- if(checbox.checked){
-     console.log('You are subscribed');
+//  if(checbox.checked){
+//      console.log('You are subscribed');
 
- }
- else{
-    console.log('You are not subscribed');
- }
-if(vsacard.checked){
-    console.log('You are using a visa card');
-}
-else if(mstrcard.checked){
-    console.log('You are using a master card');
-}
-else if(ppcard.checked){
-    console.log('You are using a PayPal card');
-}
-else{
-    console.log('Pick a payment method');
-}  
-}
+//  }
+//  else{
+//     console.log('You are not subscribed');
+//  }
+// if(vsacard.checked){
+//     console.log('You are using a visa card');
+// }
+// else if(mstrcard.checked){
+//     console.log('You are using a master card');
+// }
+// else if(ppcard.checked){
+//     console.log('You are using a PayPal card');
+// }
+// else{
+//     console.log('Pick a payment method');
+// }  
+// }
 // let tar= 'mtn' ;
 
 // switch (tar) {
@@ -237,4 +237,14 @@ else{
 //  }
 //  function displatDOM(output){
 //      document.getElementById('myLabel').innerHTML = output;
- 
+ let students = ['sponegebob', 'patrick', "squidward"];
+ students.forEach(capitalize);
+ students.forEach(print);
+
+ function capitalize(element, index, array){
+     array[index] = element[0].toUppercase() + element.substring(1);
+ }
+     function print(element){
+         console.log(element)
+     
+ }
