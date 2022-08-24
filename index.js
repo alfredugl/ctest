@@ -263,14 +263,22 @@ comment
 // function print(element){
 //     console.log(element);
 // }
-let ages = [18, 16, 21, 17, 19, 90];
-let adults = ages.filter(checkage);
+// let ages = [18, 16, 21, 17, 19, 90];
+// let adults = ages.filter(checkage);
 
-adults.forEach(print);
+// adults.forEach(print);
 
-function checkage(element){
-    return elelment >= 18;
-}
-function print(element){
-    console.log(element);
+// function checkage(element){
+//     return elelment >= 18;
+// }
+// function print(element){
+//     console.log(element);
+// }
+let prices =[5, 20, 15, 20, 25];
+let total = prices.reduce(checkout);
+
+console.log('The total is: $${total}');
+
+function checkout(total, element){
+    return total + element;
 }
