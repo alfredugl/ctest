@@ -274,7 +274,7 @@ comment
 // function print(element){
 //     console.log(element);
 // }
-let prices =[5, 20, 15, 20, 25];
+let prices =[5, 20, 15, 20, 25,40, 50, 60];
 let total = prices.reduce(checkout);
 
 console.log('The total is: $${total}');
