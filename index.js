@@ -218,28 +218,28 @@ comment
 //        document.getElementById('tempLabel').innerHTML = 'Select a unit';
 //    }
 // }
-// let numbers = [1,2,3,4,5,6,7,8];
-//  let maximun = math.max(numbers);
-//  console.log(maximum)
+let numbers = [1,2,3,4,5,6,7,8];
+ let maximun = math.max(numbers);
+ console.log(maximum)
 
-// let p = ['sponge', 'bob', 'squid', 'ward'];
-// let q = ['mr', 'krabs', 'okc'];
-// p.push(...q);
-// console.log (p);
-//  sum(2, 3, displaycons);
+let p = ['sponge', 'bob', 'squid', 'ward'];
+let q = ['mr', 'krabs', 'okc'];
+p.push(...q);
+console.log (p);
+ sum(2, 3, displaycons);
 
-//  function sum(x,y, callback) {
-//      let result = x + y;
-//      callback(result);
-//  }
-//  function displaycons(output){
-//      console.log(output)
-//  }
-//  function displatDOM(output){
-//      document.getElementById('myLabel').innerHTML = output;
-//  let students = ['Sponegebob', 'Patrick', "Squidward"];
-//  students.forEach(reduce);
-//  students.forEach(print);
+ function sum(x,y, callback) {
+     let result = x + y;
+     callback(result);
+ }
+ function displaycons(output){
+     console.log(output)
+ }
+ function displatDOM(output){
+     document.getElementById('myLabel').innerHTML = output;
+ let students = ['Sponegebob', 'Patrick', "Squidward"];
+ students.forEach(reduce);
+ students.forEach(print);
 
 //  function reduce(element, index, array){
 //      array[index] = element[0].toLowercase() + element.substring(1);
