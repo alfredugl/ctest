@@ -248,19 +248,29 @@ comment
 //          console.log(element)
      
 //  }
-let numbers = [1, 2, 3, 4, 5];
-let squares = numbers.map(square);
-let cubes = numbers.map(cube);
+// let numbers = [1, 2, 3, 4, 5];
+// let squares = numbers.map(square);
+// let cubes = numbers.map(cube);
 
-squares.forEach(print);
+// squares.forEach(print);
 
-function square(element){
-    return Math.pow(element, 2);
-}
-function cube(element){
-    return Math.pow(element, 3);
+// function square(element){
+//     return Math.pow(element, 2);
+// }
+// function cube(element){
+//     return Math.pow(element, 3);
+// }
+// function print(element){
+//     console.log(element);
+// }
+let ages = [18, 16, 21, 17, 19, 90];
+let adults = ages.filter(checkage);
+
+adults.forEach(print);
+
+function checkage(element){
+    return elelment >= 18;
 }
 function print(element){
     console.log(element);
 }
-
