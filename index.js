@@ -279,6 +279,3 @@ let total = prices.reduce(checkout);
 
 console.log('The total is: $${total}');
 
-function checkout(total, element){
-    return total + element;
-}
