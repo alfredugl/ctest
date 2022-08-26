@@ -218,64 +218,66 @@ comment
 //        document.getElementById('tempLabel').innerHTML = 'Select a unit';
 //    }
 // }
-let numbers = [1,2,3,4,5,6,7,8];
- let maximun = math.max(numbers);
- console.log(maximum)
+// let numbers = [1,2,3,4,5,6,7,8];
+//  let maximun = math.max(numbers);
+//  console.log(maximum)
 
-let p = ['sponge', 'bob', 'squid', 'ward'];
-let q = ['mr', 'krabs', 'okc'];
-p.push(...q);
-console.log (p);
- sum(2, 3, displaycons);
+// let p = ['sponge', 'bob', 'squid', 'ward'];
+// let q = ['mr', 'krabs', 'okc'];
+// p.push(...q);
+// console.log (p);
+//  sum(2, 3, displaycons);
 
- function sum(x,y, callback) {
-     let result = x + y;
-     callback(result);
- }
- function displaycons(output){
-     console.log(output)
- }
- function displatDOM(output){
-     document.getElementById('myLabel').innerHTML = output;
- let students = ['Sponegebob', 'Patrick', "Squidward"];
- students.forEach(reduce);
- students.forEach(print);
+//  function sum(x,y, callback) {
+//      let result = x + y;
+//      callback(result);
+//  }
+//  function displaycons(output){
+//      console.log(output)
+//  }
+//  function displatDOM(output){
+//      document.getElementById('myLabel').innerHTML = output;
+//  let students = ['Sponegebob', 'Patrick', "Squidward"];
+//  students.forEach(reduce);
+//  students.forEach(print);
 
- function reduce(element, index, array){
-     array[index] = element[0].toLowercase() + element.substring(1);
- }
-     function print(element){
-         console.log(element)
+//  function reduce(element, index, array){
+//      array[index] = element[0].toLowercase() + element.substring(1);
+//  }
+//      function print(element){
+//          console.log(element)
      
- }
-let numbers = [1, 2, 3, 4, 5];
-let squares = numbers.map(square);
-let cubes = numbers.map(cube);
+//  }
+// let numbers = [1, 2, 3, 4, 5];
+// let squares = numbers.map(square);
+// let cubes = numbers.map(cube);
 
-squares.forEach(print);
+// squares.forEach(print);
 
-function square(element){
-    return Math.pow(element, 2);
-}
-function cube(element){
-    return Math.pow(element, 3);
-}
-function print(element){
-    console.log(element);
-}
-let ages = [18, 16, 21, 17, 19, 90];
-let adults = ages.filter(checkage);
+// function square(element){
+//     return Math.pow(element, 2);
+// }
+// function cube(element){
+//     return Math.pow(element, 3);
+// }
+// function print(element){
+//     console.log(element);
+// }
+// let ages = [18, 16, 21, 17, 19, 90];
+// let adults = ages.filter(checkage);
 
-adults.forEach(print);
+// adults.forEach(print);
 
-function checkage(element){
-    return elelment >= 18;
-}
-function print(element){
-    console.log(element);
-}
-let prices =[5, 20, 15, 20, 25,40, 50, 60];
-let total = prices.reduce(checkout);
+// function checkage(element){
+//     return elelment >= 18;
+// }
+// function print(element){
+//     console.log(element);
+// }
+// let prices =[5, 20, 15, 20, 25,40, 50, 60];
+// let total = prices.reduce(checkout);
 
-console.log('The total is: $${total}');
+// console.log('The total is: $${total}');
 
+let p = document.querySelector(p);
+let pAll = document.querySelectorAll(p);
