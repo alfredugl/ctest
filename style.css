@@ -1,4 +1,4 @@
-/* #countLabel{
+ #countLabel{
     display: block;
     text-align: center;
     font-size: 50px;
@@ -14,7 +14,7 @@
     
 }
 
-} */
+} 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap');
 .header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
