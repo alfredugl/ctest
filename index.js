@@ -281,3 +281,8 @@ comment
 
 let p = document.querySelector(p);
 let pAll = document.querySelectorAll(p);
+function minx {
+    constructor(x, y);
+    this.x = x;
+    this.y = y;
+}
