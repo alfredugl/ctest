@@ -16,20 +16,4 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap');
- .header{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100px;
-    text-align: center;
-    color: #ffff00cc;
-
-}
-.ci{
-  background-color: rgba(110, 75, 75, 0.4) ;  
-  font-family: 'Poppins','san serif';
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
-
-}  
+ 
