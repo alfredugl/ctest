@@ -4,5 +4,21 @@
     padding: 0;
 }
 body {
-    background-color: line-gradient(to right, #011234, #112234);
+    background: linear-gradient(-45deg, #f8ac08 , #a6d2fd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+main{
+    background-color: aliceblue;
+    height: 510px;
+    width: 410px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px #808080;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
