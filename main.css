@@ -44,8 +44,16 @@ main{
 }
 #text {
     height: 7rem;
-    
+    width: 20rem;
+    border: none;
+    outline: 2px solid rgba(1, 1, 1, .4);
+    border-radius: 0.5rem;
+    resize: none;
+    font-size: 14px;
+    font-family: "Poppins" ,Arial, Helvetica, sans-serif;
+    padding: 8px 10px;
 }
+
 
 
 
