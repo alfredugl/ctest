@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +13,7 @@ body {
 
 }
 main{
-    background-color: aliceblue;
+    background-color:whitesmoke;
     height: 510px;
     width: 410px;
     border-radius: 10px;
@@ -22,3 +23,25 @@ main{
     align-items: center;
     flex-direction: column;
 }
+.title{
+    font-size: 2rem;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(48, 45, 44);
+}
+.text-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.text-title {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(44, 44, 44);
+}
+
+
+
+
