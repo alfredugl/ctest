@@ -40,6 +40,11 @@ main{
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: rgb(44, 44, 44);
+    align-self: start;
+}
+#text {
+    height: 7rem;
+    
 }
 
 
