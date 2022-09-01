@@ -59,22 +59,22 @@ comment
 // }
 // let x= Math.floor(Math.random() *6+1);
 
-// document.getElementById('rollbtn').onclick= function(){
-//     x= Math.floor(Math.random() *6+1);
-//     y= Math.floor(Math.random() *6+1);
-//     z= Math.floor(Math.random() *6+1);
+document.getElementById('rollbtn').onclick= function(){
+    x= Math.floor(Math.random() *6+1);
+    y= Math.floor(Math.random() *6+1);
+    z= Math.floor(Math.random() *6+1);
 
-// document.getElementById('xLabel').innerHTML= x;
-// document.getElementById('yLabel').innerHTML= y;
-// document.getElementById('zLabel').innerHTML= z;
-// }
-//  let myName= 'Ugele Alfred';
+document.getElementById('xLabel').innerHTML= x;
+document.getElementById('yLabel').innerHTML= y;
+document.getElementById('zLabel').innerHTML= z;
+}
+ let myName= 'Ugele Alfred';
 
-//  w= myName.charAt(2);
-//  t= myName.replaceAll('e', 'x');
-//  console.log(t);
+ w= myName.charAt(2);
+ t= myName.replaceAll('e', 'x');
+ console.log(t);
 
-// let ev='aomine daiki';
+let ev='aomine daiki';
 
 // let firstName;
 // let LastName;
