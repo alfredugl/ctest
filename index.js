@@ -76,25 +76,25 @@ document.getElementById('zLabel').innerHTML= z;
 
 let ev='aomine daiki';
 
-// let firstName;
-// let LastName;
+let firstName;
+let LastName;
 
-// firstName= ev.slice(0, ev.indexOf(' '));
-// LastName= ev.slice(ev.indexOf(' ')+1);
+firstName= ev.slice(0, ev.indexOf(' '));
+LastName= ev.slice(ev.indexOf(' ')+1);
 
-// console.log(firstName);
-// console.log(Last)
-//  let guns = -7;
+console.log(firstName);
+console.log(Last)
+ let guns = -7;
 
-//  if(guns >= 21){
-//      console.log('you sabi');
-//  }
-//  else if(guns <0){
-//      console.log('commot for here');
-//  }
-// else{
-//     console.log('You no reach')
-// }
+ if(guns >= 21){
+     console.log('you sabi');
+ }
+ else if(guns <0){
+     console.log('commot for here');
+ }
+else{
+    console.log('You no reach')
+}
 
 // document.getElementById('mybtn').onclick= function(){
 
