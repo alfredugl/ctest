@@ -92,9 +92,7 @@ console.log(Last)
  else if(guns <0){
      console.log('commot for here');
  }
-else{
-    console.log('You no reach')
-}
+
 
 // document.getElementById('mybtn').onclick= function(){
 
